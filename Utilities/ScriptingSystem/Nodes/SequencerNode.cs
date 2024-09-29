@@ -11,7 +11,7 @@ namespace Radikon.ScriptingSystem
     [BrowserDisplayName("Sequencer", false)]
     [NodeBrowserCategory("ControlFlow")]
     [BrowserKeywords("Sequence", "Series")]
-    [BrowserTooltip("Run multiple sequences of nodes at once.\n\nHas the option to wait for all sequences to complete before moving to the next node in the sequencer's parent sequence, such as a TriggerBox or the main sequnece.")]
+    [BrowserTooltip("Run multiple sequences of nodes at once.")]
     public class SequencerNode : ScriptingNode
     {
         // Members
